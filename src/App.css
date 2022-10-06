@@ -43,6 +43,36 @@ form {
   margin-top: 100px;
 }
 
+li {
+  padding: 4px;
+  list-style: none;
+}
+
 form >* {
   margin: 2px;
+}
+
+.tasklist {
+    /* padding-top: 30px; */
+    width: 300px;
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tasklist >* {
+  padding: 8px;
+  width: 256px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
