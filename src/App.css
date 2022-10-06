@@ -44,7 +44,7 @@ form {
 }
 
 li {
-  padding: 4px;
+  /* padding: 3px; */
   list-style: none;
 }
 
@@ -53,10 +53,8 @@ form >* {
 }
 
 .tasklist {
-    /* padding-top: 30px; */
     width: 300px;
     display: flex;
-    /* gap: 10px; */
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
@@ -70,9 +68,14 @@ form >* {
 }
 
 .tasklist >* {
-  padding: 8px;
+  padding: 10px;
   width: 256px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
 }

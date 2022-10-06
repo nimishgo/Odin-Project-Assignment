@@ -1,6 +1,6 @@
 // import React from "react";
 
-import {FaTrashAlt} from 'react-icons/fa';
+import {FaTrashAlt, FaEdit} from 'react-icons/fa';
 
 const Overview = (props) => {
   const { tasks,deleteTask} = props;
@@ -16,7 +16,10 @@ const Overview = (props) => {
               &nbsp;
               {task.text} &nbsp;
             </div>
-              <button id={task.id} onClick={() => deleteTask(task.id) }>{<FaTrashAlt/>}</button>
+            <div className='icons'>
+              <button id={task.id} onClick={() => deleteTask(task.id) }>{<FaTrashAlt style={{cursor:'pointer'}} />}</button>
+              <button id={task.id}>{<FaEdit style={{cursor:'pointer'}} />}</button>
+            </div>
           </li>
         )
       })}
