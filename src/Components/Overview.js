@@ -5,8 +5,6 @@ import {FaTrashAlt, FaEdit, FaCheck} from 'react-icons/fa';
 
 const Overview = (props) => {
   const { tasks,deleteTask,isEditing, reSubmit} = props;
-  // console.log(deleteTask,props);
-  // const sub = true;
 
   const [state, setState] = useState("")
 
@@ -15,14 +13,13 @@ const Overview = (props) => {
         setState(e.target.value);
   }
 
-  
 
   return (
     <ul className='tasklist'>
       {tasks.map((task,index) => {
-        // console.log(task.id);
-        // setState(task);
-        const editing = (
+
+      
+      const editing = (
         <li key={task.id}>
             <div>
               <strong>{index}.</strong>
@@ -48,7 +45,7 @@ const Overview = (props) => {
             </div>
         </li>
         ) 
-        // console.log(task);
+
         return task.editIt ? editing : basicTemplate;    
         
       })}
