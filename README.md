@@ -1,3 +1,13 @@
+## Odin Project Assignment Handle Inputs And Render Lists
+
+create a simple task - app
+[link](https://www.theodinproject.com/lessons/node-path-javascript-handle-inputs-and-render-lists#detailed-guide)
+### Easy
+- [x] Instead of displaying unordered list items, manage the amount of tasks in state and let each task display its number. Yes, you could also do that with a simple ordered list, but where’s the fun in that? Try using state.
+- [x] Implement a delete button for each task. The delete button should remove the specific task from the state array. Don’t forget to never directly assign state. If you want you can use Font Awesome for the icon. Tip: You can remove each task by its id, but for that you have to save the task id together with the task title. 
+
+### Hard 
+- [x] Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
