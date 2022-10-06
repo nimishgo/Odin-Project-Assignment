@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Odin-Project-Assignment/static/css/main.ee9c5286.css",
+    "main.js": "/Odin-Project-Assignment/static/js/main.ed2123e9.js",
+    "index.html": "/Odin-Project-Assignment/index.html",
+    "main.ee9c5286.css.map": "/Odin-Project-Assignment/static/css/main.ee9c5286.css.map",
+    "main.ed2123e9.js.map": "/Odin-Project-Assignment/static/js/main.ed2123e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee9c5286.css",
+    "static/js/main.ed2123e9.js"
+  ]
+}
