@@ -108,7 +108,7 @@ class App extends Component {
     
     return (
       <div className='tasks'>
-        <form onSubmit={this.onSubmitTask}>
+        <form onSubmit={this.onSubmitTask} className="forms">
           <label htmlFor="taskInput">Enter the task&nbsp;: </label>
           <input 
           onChange={this.handleChange}
@@ -117,6 +117,7 @@ class App extends Component {
           id='taskInput'
           required
           />
+          &nbsp;
           <button type='submit'>Add</button>
         </form>
           <Overview tasks={tasks} deleteTask={this.deleteTask} isEditing={this.isEditing} reSubmit={this.reSubmit} handleChange={this.handleChange} />

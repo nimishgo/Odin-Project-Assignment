@@ -45,7 +45,10 @@ form {
 
 li {
   /* padding: 3px; */
+  /* width: 300px; */
   list-style: none;
+  display: flex;
+  gap: 10px;
 }
 
 form >* {
@@ -53,7 +56,7 @@ form >* {
 }
 
 .tasklist {
-    width: 300px;
+    width: 50vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -68,8 +71,10 @@ form >* {
 }
 
 .tasklist >* {
+  margin: 10px;
+  background-color: #525252;
   padding: 10px;
-  width: 256px;
+  width: 500px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -77,5 +82,38 @@ form >* {
 
 .icons {
   display: flex;
+  height: 32px;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  border-radius: 1em;
+  padding: 10px;
+  width: 256px;
+  font-size: 20px;
+}
+
+button {
+  height: 40px;
+  background-color: #313131;
+  color: #aaa;
+  border: 2px solid #525252;
+  border-radius: 25%;
+  /* width: 20px; */
+  /* box-sizing: content-box; */
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .icons {
+  height: 64px;
+} */
+
+.forms {
+  display: flex;
+  align-items: center;
 }
