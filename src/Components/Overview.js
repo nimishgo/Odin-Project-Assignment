@@ -1,5 +1,4 @@
 // import React from "react";
-
 import { useState } from 'react';
 import {FaTrashAlt, FaEdit, FaCheck} from 'react-icons/fa';
 
@@ -40,8 +39,10 @@ const Overview = (props) => {
               {task.text} &nbsp;
             </div>
             <div className='icons'>
-              <button id={task.id} onClick={() => deleteTask(task.id) }>{<FaTrashAlt style={{cursor:'pointer'}} />}</button>
-              <button id={task.id} onClick={() => isEditing(task.id)} >{<FaEdit style={{cursor:'pointer'}} />}</button>
+              <button id={task.id} onClick={() => deleteTask(task.id) }>{<FaTrashAlt style={{cursor:'pointer', width:'16px'}} />}</button>
+              <button id={task.id} onClick={() => isEditing(task.id)} >{<FaEdit style={
+                {cursor:'pointer'}
+                } />}</button>
             </div>
         </li>
         ) 
